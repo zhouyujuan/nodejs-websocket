@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+下载nodejs-websocket
+https://github.com/sitegui/nodejs-websocket 
+npm install nodejs-websocket
+但是报错了，说是缺少package.json
+
+所以：
+1、npm init       创建package.json
+2、sudo npm install nodejs-websocket   就可以了
+3、创建一个wsServer.js   是服务器文件
+4、服务器端的代码可以先看https://github.com/sitegui/nodejs-websocket
+上面的使用方法。
+5、启动服务、node wsServer.js
+
+
+这里使用的是nodejs_websocket. 这个可以通过socket.io 进行改造的。
+
+-->
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webscoket</title>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<!-- echo 把接受到的数据返回过去 -->
+<!-- 这里是小明的聊天列表 
+   定义了他进入的是聊天室，还是单聊。
+   告诉了服务器，我是要进入那个聊天室。
+   或者是我要和谁聊天。
+-->
+<body>
+    <div class="navigation"><h1>小明好友列表</h1></div>
+    <ul class="fridenslist">
+        <li><a href="chat.html?name=xiaoming&group=1">聊天室一(小红、小明、小张)</a></li>
+        <li><a href="chat.html?name=xiaoming&group=2">聊天室二（小红、小李、小明）</a></li>
+        <li><a href="chat.html?name=xiaoming&to=xiaohong">小红</a></li>
+        <li><a href="chat.html?name=xiaoming&to=xiaoli">小李</a></li>
+    </ul>
+</body>
+
+</html>

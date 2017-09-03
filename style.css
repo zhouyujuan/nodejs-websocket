@@ -1,0 +1,99 @@
+.navigation {
+    width: 100%;
+    height: 1.333333rem;
+    font-size: 0.426667rem;
+    background-color: #00BFFF;
+    color: #fff;
+    text-align: center;
+    line-height: 1.33rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.fridenslist{
+	margin-top: 1.333333rem;
+}
+
+
+
+.fridenslist li {
+    border-bottom: 1px solid #f0f0f0;
+    height: 1.333333rem;
+
+}
+
+.fridenslist li a {
+    display: block;
+    height: 100%;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+
+/*聊天界面*/
+
+#back {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0.266667rem;
+    width: 1.2rem;
+    color: #fff;
+}
+
+.sendMessage {
+    position: fixed;
+    height: 1.066667rem;
+    background-color: #fff;
+    width: 90%;
+    left: 50%;
+    margin-left: -45%;
+    border-radius: 5px;
+    bottom: 10px;
+}
+
+#sendText {
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 0.8rem;
+    margin-top: 0.13333rem;
+    margin-left: 0.266667rem;
+    width: 80%;
+    border-radius: 0.133333rem;
+}
+
+#sendBtn {
+    width: 12%;
+    height: 0.8rem;
+    border-radius: 0.133333rem;
+    font-size: 0.4rem;
+    color: #fff;
+    background-color: #00BFFF;
+    text-align: center;
+}
+
+.chatbody,
+.chathtml {
+    background-color: #ddd;
+    height: 100%;
+}
+
+#entername{
+	margin-top: 2.0rem;
+}
+
+#chatlist .other{
+    padding: 0.266667rem;
+    font-size: 0.4rem;
+}
+
+#chatlist .mine{
+	padding: 0.266667rem;
+	font-size: 0.4rem;
+    text-align: right;
+}
+
+
